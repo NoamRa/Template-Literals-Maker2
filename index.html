@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Template Literals Maker</title>
+    <meta name="description" content="Template Literals Maker">
+    <meta name="author" content="NoamR">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="inputArea">
+      <h3>Template Literals Maker</h3>
+      <textarea rows="5" cols="60" id="theInput" type="text" value=""></textarea>
+    </div>
+    </br>
+    <div id="outputArea">
+      <h3>as template literal:</h3>
+      <textarea disabled rows="5" cols="60" id="theOutput" type="text"></textarea>
+      <div id="theError"></div>
+      <button id="copyButton" onclick="copyToClipboard()">Copy to clipboard</button>
+    </div>
+    <script src="js/templateLiteralMaker.js"></script>
+  </body>
+</html>
